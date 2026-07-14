@@ -1,0 +1,165 @@
+                                                       Analysis 1
+
+                                                  The MEANS Procedure
+
+ Variable            N           Mean        Std Dev        Minimum        Maximum
+ ---------------------------------------------------------------------------------
+ use_internet       40      0.7250000      0.4522026      0.0000000      1.0000000
+ ---------------------------------------------------------------------------------
+
+                                                       Analysis 1
+
+                                                  The MEANS Procedure
+
+ Variable                   N           Mean        Std Dev        Minimum        Maximum
+ ----------------------------------------------------------------------------------------
+ own_cell_standalone       40      0.7750000      0.4229021      0.0000000      1.0000000
+ ----------------------------------------------------------------------------------------
+
+                                                       Analysis 1
+
+                                                  The MEANS Procedure
+
+ Variable                   N           Mean        Std Dev        Minimum        Maximum
+ ----------------------------------------------------------------------------------------
+ smeffect_changemind       33      0.4545455      0.5056499      0.0000000      1.0000000
+ ----------------------------------------------------------------------------------------
+
+                                                       Analysis 1
+
+                                                  The MEANS Procedure
+
+ Variable                  N           Mean        Std Dev        Minimum        Maximum
+ ---------------------------------------------------------------------------------------
+ smeffect_awareness       32      0.7500000      0.4399413      0.0000000      1.0000000
+ ---------------------------------------------------------------------------------------
+
+                                                       Analysis 1
+
+                                                  The MEANS Procedure
+
+ Variable                   N           Mean        Std Dev        Minimum        Maximum
+ ----------------------------------------------------------------------------------------
+ smimpact_manipulate       19      0.6315789      0.4955946      0.0000000      1.0000000
+ ----------------------------------------------------------------------------------------
+
+                                                       Analysis 1
+
+                                     
+---------------------------  --------
+Number of Observations Read        40
+Number of Observations Used        40
+
+              Response Profile              
+  Probability modeled is use_internet='1'   
+
+Ordered Value  use_internet  Total Frequency
+-------------  ------------  ---------------
+            1  0                          11
+            2  1                          29
+
+        Class Level Information        
+
+Class                  Levels  Values  
+-------------------  --------  --------
+smeffect_changemind         3  . 0 1   
+smeffect_awareness          3  . 0 1   
+smimpact_manipulate         3  . 0 1   
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: use_internet
+
+Criterion     Value
+---------  --------
+AIC          60.490
+-2 Log L     44.490
+SC           74.001
+
+                 Analysis of Maximum Likelihood Estimates                 
+
+Parameter            Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+-------------------  --------  --------------  ---------------  ----------
+Intercept              0.5076          1.3124           0.1496      0.6989
+own_cell_standalone   -0.2284          0.9665           0.0558      0.8132
+smeffect_changemind    1.2814          1.2786           1.0043      0.3163
+smeffect_changemind    0.2157          0.7865           0.0752      0.7839
+smeffect_changemind    0.0000          0.0000                .           .
+smeffect_awareness     0.4788          1.0110           0.2243      0.6358
+smeffect_awareness    -0.3359          0.9234           0.1323      0.7160
+smeffect_awareness     0.0000          0.0000                .           .
+smimpact_manipulate    0.3069          0.8265           0.1379      0.7104
+smimpact_manipulate    1.2235          1.3482           0.8237      0.3641
+smimpact_manipulate    0.0000          0.0000                .           .
+
+                          Odds Ratio Estimates                           
+
+Effect               Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+-------------------  --------------  -----------------  -----------------
+own_cell_standalone           0.796              0.120              5.290
+smeffect_changemind           3.602              0.294             44.143
+smeffect_changemind           1.241              0.266              5.796
+smeffect_awareness            1.614              0.223             11.709
+smeffect_awareness            0.715              0.117              4.366
+smimpact_manipulate           1.359              0.269              6.867
+smimpact_manipulate           3.399              0.242             47.745
+
+                                                       Analysis 1
+
+                                     
+---------------------------  --------
+Number of Observations Read        40
+Number of Observations Used        40
+
+              Response Profile              
+  Probability modeled is use_internet='1'   
+
+Ordered Value  use_internet  Total Frequency
+-------------  ------------  ---------------
+            1  0                          11
+            2  1                          29
+
+        Class Level Information        
+
+Class                  Levels  Values  
+-------------------  --------  --------
+smeffect_awareness          3  . 0 1   
+smimpact_manipulate         3  . 0 1   
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: use_internet
+
+Criterion     Value
+---------  --------
+AIC          55.711
+-2 Log L     45.711
+SC           64.155
+
+                 Analysis of Maximum Likelihood Estimates                 
+
+Parameter            Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+-------------------  --------  --------------  ---------------  ----------
+Intercept              0.7709          0.7217           1.1412      0.2854
+smeffect_awareness     0.2063          0.9651           0.0457      0.8307
+smeffect_awareness    -0.4782          0.8852           0.2918      0.5891
+smeffect_awareness     0.0000          0.0000                .           .
+smimpact_manipulate    0.1979          0.7872           0.0632      0.8015
+smimpact_manipulate    1.0995          1.2717           0.7475      0.3873
+smimpact_manipulate    0.0000          0.0000                .           .
+
+                          Odds Ratio Estimates                           
+
+Effect               Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+-------------------  --------------  -----------------  -----------------
+smeffect_awareness            1.229              0.185              8.149
+smeffect_awareness            0.620              0.109              3.514
+smimpact_manipulate           1.219              0.261              5.702
+smimpact_manipulate           3.003              0.248             36.306
+

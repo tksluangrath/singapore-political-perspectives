@@ -1,0 +1,70 @@
+                                                       Analysis 3
+
+                                     
+---------------------------  --------
+Number of Observations Read        40
+Number of Observations Used        40
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: relations_china
+
+Criterion     Value
+---------  --------
+AIC         102.497
+-2 Log L     76.497
+SC          124.452
+
+                 Analysis of Maximum Likelihood Estimates                 
+
+Parameter            Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+-------------------  --------  --------------  ---------------  ----------
+growinflu_china        0.4178          0.9209           0.2058      0.6501
+growinflu_china       -3.1313          0.9748          10.3195      0.0013
+fav_china[T.0]        -1.2061          1.0329           1.3634      0.2429
+fav_china[T.1]        -1.3403          1.1233           1.4236      0.2328
+intl_system[T.0]       0.8245          0.9228           0.7984      0.3716
+intl_system[T.1]      -0.0962          0.8083           0.0142      0.9053
+confid_xi[T.0]         1.4344          0.8200           3.0596      0.0803
+confid_xi[T.1]         1.2326          1.0145           1.4764      0.2243
+china_politics[T.0]   -0.9588          0.9817           0.9539      0.3287
+china_politics[T.1]    0.0819          0.9893           0.0069      0.9340
+Intercept_0/1         -3.5274          1.5731           5.0280      0.0249
+Intercept_1/2          0.2490          0.4145           0.3610      0.5480
+Intercept_2/3          1.1155          0.2457          20.6070      <.0001
+
+                                                       Analysis 3
+
+                                     
+---------------------------  --------
+Number of Observations Read        40
+Number of Observations Used        40
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: relations_china
+
+Criterion     Value
+---------  --------
+AIC          95.563
+-2 Log L     81.563
+SC          107.385
+
+               Analysis of Maximum Likelihood Estimates               
+
+Parameter        Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------------  --------  --------------  ---------------  ----------
+confid_xi[T.0]    -1.2018          0.7841           2.3489      0.1254
+confid_xi[T.1]    -1.3354          0.8930           2.2364      0.1348
+growinflu_china   -0.2513          0.8276           0.0922      0.7614
+growinflu_china    3.3006          0.9225          12.8013      0.0003
+Intercept_0/1     -1.6182          0.8112           3.9796      0.0461
+Intercept_1/2      1.0256          0.2390          18.4160      <.0001
+Intercept_2/3      0.1381          0.4200           0.1081      0.7423
+
