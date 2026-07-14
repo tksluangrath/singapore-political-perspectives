@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_analysis3_china_relations",
+  "source_file": "final.sas",
+  "source_blob_sha": "4e090424ada49a41c8da3353aad48b15331bba3e",
+  "source_commit": "2cc7cb0759f6357229f25b60d5675ff0b48067d4",
+  "notes": "Analysis 3 (Singaporean opinions of China): the author's recode block and both PROC LOGISTIC models (full model of relations_china on growinflu_china / fav_china / intl_system / confid_xi / china_politics, plus the reduced model), verbatim. The external libname library is repointed at a work path and library.global_trends is seeded with a small mock survey extract matching the seven columns Analysis 3 reads. All recoding and modeling is the author's own code."
+}

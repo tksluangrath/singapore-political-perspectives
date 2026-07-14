@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_analysis1_socialmedia",
+  "source_file": "final.sas",
+  "source_blob_sha": "4e090424ada49a41c8da3353aad48b15331bba3e",
+  "source_commit": "2cc7cb0759f6357229f25b60d5675ff0b48067d4",
+  "notes": "Analysis 1 (social-media/internet-access): the author's recode block, five PROC MEANS, and full + reduced PROC LOGISTIC models on use_internet, verbatim. The external libname library (D:\\MATH309\\finalproject) is repointed at a work path and library.global_trends is seeded with a small mock survey extract (40 country=14 rows + 5 others) matching the six columns Analysis 1 reads; all recoding and modeling is the author's own code."
+}
